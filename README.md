@@ -1,5 +1,5 @@
 ``` 
-git clone https://github.com/lucaschreiner/nvim.git ~/.config/nvim
+bash <(curl -s https://raw.githubusercontent.com/lucaschreiner/nvim/master/utils/compile/install.sh)
 ```
 
 After installation run `nvim` and then `:PackerInstall` or `:PackerSync`
