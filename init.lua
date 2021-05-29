@@ -4,10 +4,6 @@ require('keymappings')
 require('settings')
 require('colorscheme')
 
--- LSP
-require('lsp.lua-ls')
-require('ls-compe')
-
 -- Plugins
 require('ls-nvimtree')
 require('ls-gitsigns')
@@ -20,3 +16,7 @@ require('ls-rnvimr')
 require('ls-comment')
 require('ls-telescope')
 require('ls-quickscope')
+
+-- LSP
+require('lsp.lua-ls')
+require('ls-compe')

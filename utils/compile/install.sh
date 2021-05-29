@@ -4,7 +4,7 @@ set -o nounset
 set -o errexit
 
 installnodemac() {
-	brew install lua
+    brew install lua
 	brew install node
 	brew install yarn
 }
