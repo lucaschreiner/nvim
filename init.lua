@@ -18,5 +18,6 @@ require('ls-telescope')
 require('ls-quickscope')
 
 -- LSP
+require('lsp')
 require('lsp.lua-ls')
 require('ls-compe')
