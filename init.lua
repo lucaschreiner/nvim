@@ -3,6 +3,7 @@ require('plugins')
 require('keymappings')
 require('settings')
 require('colorscheme')
+require('ls-autocommands')
 
 -- Plugins
 require('ls-nvimtree')
@@ -16,6 +17,8 @@ require('ls-rnvimr')
 require('ls-comment')
 require('ls-telescope')
 require('ls-quickscope')
+require('ls-rooter')
+require('ls-numb')
 
 -- LSP
 require('lsp')

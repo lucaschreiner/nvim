@@ -87,5 +87,7 @@ return require("packer").startup(
         use "unblevable/quick-scope"
         use "mbbill/undotree"
         use {"terrortylor/nvim-comment"}
+        use "ahmedkhalf/lsp-rooter.nvim"
+        use "nacro90/numb.nvim"
     end
 )
