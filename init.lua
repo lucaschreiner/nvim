@@ -1,4 +1,4 @@
--- General stuff
+-- General stuffi
 require('plugins')
 require('keymappings')
 require('settings')
@@ -15,6 +15,7 @@ require('ls-treesitter')
 require('ls-autopairs')
 require('ls-rnvimr')
 require('ls-comment')
+require('ls-fterm')
 require('ls-telescope')
 require('ls-quickscope')
 require('ls-rooter')

@@ -89,5 +89,7 @@ return require("packer").startup(
         use {"terrortylor/nvim-comment"}
         use "ahmedkhalf/lsp-rooter.nvim"
         use "nacro90/numb.nvim"
+        use "numToStr/FTerm.nvim"
+
     end
 )
