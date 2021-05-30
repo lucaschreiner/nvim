@@ -17,6 +17,10 @@ define_augroups(
     {
         _general_settings = {
             {'TextYankPost', '*', 'lua require(\'vim.highlight\').on_yank({higroup = \'IncSearch\', timeout = 150})'},
+            {'BufWinEnter', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'},
+            {'BufRead', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'},
+            {'BufNewFile', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'},
+            {'VimLeavePre', '*', 'set title set titleold='},
         },
 
     }
