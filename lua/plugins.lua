@@ -90,6 +90,7 @@ return require("packer").startup(
         use "ahmedkhalf/lsp-rooter.nvim"
         use "nacro90/numb.nvim"
         use "numToStr/FTerm.nvim"
+        use "glepnir/dashboard-nvim"
 
     end
 )

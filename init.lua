@@ -20,6 +20,7 @@ require('ls-telescope')
 require('ls-quickscope')
 require('ls-rooter')
 require('ls-numb')
+require('ls-startscreen')
 
 -- LSP
 require('lsp')
