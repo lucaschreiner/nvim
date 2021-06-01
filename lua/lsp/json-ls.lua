@@ -4,7 +4,6 @@ require'lspconfig'.jsonls.setup {
         "--stdio"
     },
     on_attach = require'lsp'.common_on_attach,
-
     commands = {
         Format = {
             function()
