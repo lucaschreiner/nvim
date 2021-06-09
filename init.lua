@@ -1,4 +1,4 @@
--- General stuffi
+-- General stuff
 require('plugins')
 require('keymappings')
 require('settings')
@@ -21,12 +21,12 @@ require('ls-quickscope')
 require('ls-rooter')
 require('ls-numb')
 require('ls-startscreen')
+require('ls-compe')
 
 -- LSP
 require('lsp')
 require('lsp.lua-ls')
-require('lsp.bash-ls')
-require('lsp.json-ls')
-require('lsp.yaml-ls')
 require('lsp.python-ls')
-require('ls-compe')
+require('lsp.yaml-ls')
+require('lsp.vim-ls')
+require('lsp.typescript-ls')
