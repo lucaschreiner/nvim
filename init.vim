@@ -17,6 +17,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 Plug 'romgrk/barbar.nvim'
+Plug 'tpope/vim-fugitive'
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -30,6 +32,12 @@ lua require("lucalol")
 if executable('rg')
     let g:rg_derive_root='true'
 endif
+
+let g:rnvimr_ex_enable = 1
+let g:rnvimr_draw_border = 1
+let g:rnvimr_pick_enable = 1
+let g:rnvimr_bw_enable = 1
+nnoremap <silent>- :RnvimrToggle<CR>
 
 colorscheme nvcode
 set background=dark
