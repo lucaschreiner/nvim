@@ -15,6 +15,8 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'mbbill/undotree'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+Plug 'romgrk/barbar.nvim'
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -41,6 +43,10 @@ nnoremap <silent> <C-Left> :vertical resize -2<CR>
 nnoremap <silent> <C-Right> :vertical resize +2<CR>
 nnoremap <silent> <leader>e :NvimTreeToggle<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
+nnoremap <silent> <TAB> :BufferNext<CR>
+nnoremap <silent> <S-TAB> :BufferPrevious<CR>
+nnoremap <silent> <S-x> :BufferClose<CR>
+
 inoremap jk <ESC>
 inoremap kj <ESC>
 
