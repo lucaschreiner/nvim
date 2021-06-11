@@ -19,6 +19,7 @@ Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 Plug 'romgrk/barbar.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

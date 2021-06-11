@@ -1,0 +1,48 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "java",
+        "html",
+        "yaml",
+        "json",
+        "python"
+    ],
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "~/.config/nvim/utils/snips"
+    ],
+    "suggest.completionItemKindLabels": {
+        "method": "  ",
+        "function": "  ",
+        "variable": "[]",
+        "field": "  ",
+        "typeParameter": "<>",
+        "constant": "  ",
+        "class": " פּ ",
+        "interface": " 蘒",
+        "struct": "  ",
+        "event": "  ",
+        "operator": "  ",
+        "module": "  ",
+        "property": "  ",
+        "enum": " 練",
+        "reference": "  ",
+        "keyword": "  ",
+        "file": "  ",
+        "folder": " ﱮ ",
+        "color": "  ",
+        "unit": " 塞 ",
+        "snippet": "  ",
+        "text": "  ",
+        "constructor": "  ",
+        "value": "  ",
+        "enumMember": "  "
+    },
+    // codelens
+    "codeLens.enable": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar"
+    // "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar -Xbootclasspath/a:/usr/local/share/lombok/lombok.jar", // for older versions of Java
+}
