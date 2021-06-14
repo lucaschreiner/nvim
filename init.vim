@@ -72,6 +72,11 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+lua << EOF
+vim.api.nvim_set_keymap('x', 'J', ':move \'>+1<CR>gv-gv', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('x', 'K', ':move \'<-2<CR>gv-gv', {noremap = true, silent = true})
+EOF
+
 inoremap <C-c> <esc>
 
 " Telescope
