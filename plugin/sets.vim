@@ -40,7 +40,7 @@ set noshowmode
 set nobackup
 set ruler
 set noswapfile
-set undodir=~/.vim/undodir
+set undodir=~/.config/undodir
 set undofile
 set nowritebackup
 set signcolumn=yes
